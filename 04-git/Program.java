@@ -9,6 +9,10 @@ public class Demo {
     public static void main(String[] args) {
 
     	int year;
+	
+
+	//bla bla bla
+
     	Scanner scan = new Scanner(System.in);
     	System.out.println("Enter any Year:");
     	year = scan.nextInt();
@@ -26,7 +30,7 @@ public class Demo {
             }
             else
                 isLeap = true;
-
+		int i = 1;		
         }
         else { isLeap = false; }
 
