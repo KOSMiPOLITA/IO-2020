@@ -1,3 +1,5 @@
+//bardzo fajna klasa
+
 import java.util.Scanner;
 public class Demo {
 
