@@ -3,6 +3,9 @@
 import java.util.Scanner;
 public class Demo {
 
+
+
+//zmiana 1	
     public static void main(String[] args) {
 
     	int year;
@@ -23,14 +26,14 @@ public class Demo {
             }
             else
                 isLeap = true;
+
         }
-        else {
-            isLeap = false;
-        }
+        else { isLeap = false; }
 
         if(isLeap==true)
             System.out.println(year + " is a Leap Year.");
         else
+	//kto by chciał robić else
             System.out.println(year + " is not a Leap Year.");
     }
 }
