@@ -34,3 +34,5 @@ public class Demo {
             System.out.println(year + " is not a Leap Year.");
     }
 }
+
+//nie mam pojęcia co robię
