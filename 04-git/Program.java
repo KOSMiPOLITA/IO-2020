@@ -15,11 +15,11 @@ public class Demo {
     	scan.close();
         boolean isLeap = false;
 	//dupa dupa
-        if(year % 4 == 0)
+        if(year % (20/5)  == 0)
         {
             if( year % 100 == 0)
             {
-                if ( year % 400 == 0)
+                if ( year % (100*4) == 0)
                     isLeap = true;
                 else
                     isLeap = false;
