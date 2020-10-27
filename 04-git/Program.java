@@ -14,7 +14,7 @@ public class Demo {
     	year = scan.nextInt();
     	scan.close();
         boolean isLeap = false;
-
+	//dupa dupa
         if(year % 4 == 0)
         {
             if( year % 100 == 0)
