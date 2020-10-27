@@ -1,4 +1,7 @@
-//bardzo fajna klasa
+/**
+ * @author Eryk Kosmala
+ *
+ */
 
 import java.util.Scanner;
 public class Demo {
@@ -43,3 +46,8 @@ public class Demo {
 }
 
 //nie mam pojęcia co robię
+//
+//
+//
+//
+//dobijcie
