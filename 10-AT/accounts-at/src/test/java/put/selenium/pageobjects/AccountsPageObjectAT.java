@@ -62,7 +62,15 @@ public class AccountsPageObjectAT {
 
     @Test
     public void successfulUserRegistration() throws Exception {
-        //TODO
+        resetDatabse.resetDatabase();
+        mainPage.openPage();
+        assertTrue(mainPage.isOnPageNotLoggedIn());
+        mainMenu.clickRegisterLink();
+        assertTrue(registrationPage.isOnPage());
+        registrationPage.registerUser("user", "password", "password","Jan Kowalski", "ul. Nowa 10");
+        assertTrue(loginPage.isOnPage());
+        loginPage.loginUser("user", "password");
+        assertEquals("Jan Kowalski, ul. Nowa 10", loggedInUserInfo.getUserInformation());
 
     }
 
