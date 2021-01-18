@@ -48,6 +48,11 @@ public class AccountsLinearScriptAT {
         driver.findElement(By.name("addressData")).clear();
         driver.findElement(By.name("addressData")).sendKeys("wp@wp.pl");
         driver.findElement(By.name("submit")).click();
+        
+        assertEquals("Login", driver.findElement(By.xpath("//div[@id='contentSingle']/h3")).getText());
+        assertEquals("username:", driver.findElement(By.xpath("//div[@id='contentSingle']/form/table/tbody/tr/td")).getText());
+        assertEquals("password:", driver.findElement(By.xpath("//div[@id='contentSingle']/form/table/tbody/tr[3]/td")).getText());
+
     }
 
 
